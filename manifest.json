@@ -4,8 +4,8 @@
   "description": "Portfolio website of Vansh Rana",
   "icons": [
     {
-      "src": "images/icon-192.jpg",
-      "type": "image/jpg",
+      "src": "images/icon-192.png",
+      "type": "image/png",
       "sizes": "192x192"
     },
     {
