@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vansh Rana - Fresher Full Stack Developer Portfolio. BCA graduate specializing in ASP.NET Core MVC, C#, SQL Server and modern web technologies." />
+    <meta name="author" content="Vansh Rana" />
+    <title>Vansh Rana | Full Stack Developer Portfolio</title>
+
+    <!-- manifest -->
+     <link rel="manifest" href="/manifest.json">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/site.css"  />
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Vansh<span>Rana</span></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarContent" aria-controls="navbarContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto nav-links">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+
+                <div class="d-flex align-items-center nav-actions">
+                    <button id="themeToggle" class="btn btn-icon me-2" title="Toggle dark / light mode" aria-label="Toggle theme">
+                        <i class="fa-solid fa-moon" id="themeIcon"></i>
+                    </button>
+                    <a href="resume/Vansh-Rana-Resume.pdf" download class="btn btn-resume-nav">
+                        <i class="fa-solid fa-download me-1"></i> Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== PAGE BODY ===== -->
+    <main>
+        <!-- ============ HERO SECTION ============ -->
+<section id="home" class="hero-section">
+    <div class="container">
+        <div class="row align-items-center gy-5">
+            <div class="col-lg-6 hero-text reveal-up">
+                <p class="hero-greeting">Hi, I'm</p>
+                <h1 class="hero-name">Vansh Rana</h1>
+                <h2 class="hero-role">
+                    <span id="typedRole">Full Stack Developer</span>
+                </h2>
+                <p class="hero-desc">
+                    I am a BCA graduate and aspiring Full Stack Developer passionate about building
+                    responsive, user-friendly and database-driven web applications using modern web technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary-custom">
+                        <i class="fa-solid fa-diagram-project me-2"></i>View My Projects
+                    </a>
+                    <a href="#contact" class="btn btn-outline-custom">
+                        <i class="fa-solid fa-paper-plane me-2"></i>Contact Me
+                    </a>
+                    <a href="resume/Vansh-Rana-Resume.pdf" download class="btn btn-resume">
+                        <i class="fa-solid fa-download me-2"></i>Download Resume
+                    </a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/your-username" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:your-email@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center reveal-up delay-1">
+                <div class="hero-visual">
+                    <div class="hero-blob"></div>
+                    <div class="hero-avatar">
+                        <img src="images/profile.jpeg" alt="Vansh Rana" class="img-fluid rounded-circle" />
+                    </div>
+                    <div class="floating-badge badge-cs">C#</div>
+                    <div class="floating-badge badge-html">HTML5</div>
+                    <div class="floating-badge badge-css">CSS3</div>
+                    <div class="floating-badge badge-js">JS</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <i class="fa-solid fa-chevron-down"></i>
+    </div>
+</section>
+
+<!-- ============ ABOUT SECTION ============ -->
+<section id="about" class="about-section">
+    <div class="container">
+        <div class="section-heading reveal-up">
+            <span class="section-tag">About Me</span>
+            <h2>Get To Know Me</h2>
+        </div>
+        <div class="row align-items-center gy-4">
+            <div class="col-lg-5 reveal-up">
+                <div class="about-card-image">
+                    <img src="images/profile.jpeg" alt="Vansh Rana" class="img-fluid" />
+                </div>
+            </div>
+            <div class="col-lg-7 reveal-up delay-1">
+                <div class="about-card">
+                    <h3>More About Me</h3>
+                    <p>
+                        I'm a BCA graduate and a fresher Full Stack Developer with a strong foundation in both
+                        frontend and backend web development. I enjoy building complete, database-driven applications
+                        using ASP.NET Core MVC and C#, and I focus on writing clean, structured, maintainable code
+                        that follows proper MVC architecture.
+                    </p>
+                    <p>
+                        My interest lies in solving real problems through software — from designing efficient database
+                        schemas with SQL Server and Entity Framework Core, to creating responsive and accessible
+                        interfaces with HTML, CSS, JavaScript, jQuery and Bootstrap. I have a genuine learning mindset
+                        and I'm always exploring new tools and best practices in the .NET ecosystem.
+                    </p>
+                    <div class="row g-3 about-points">
+                        <div class="col-sm-6"><i class="fa-solid fa-graduation-cap"></i> BCA Graduate</div>
+                        <div class="col-sm-6"><i class="fa-solid fa-code"></i> Full Stack Development</div>
+                        <div class="col-sm-6"><i class="fa-solid fa-database"></i> Database Design</div>
+                        <div class="col-sm-6"><i class="fa-solid fa-sitemap"></i> MVC Architecture</div>
+                        <div class="col-sm-6"><i class="fa-solid fa-lightbulb"></i> Problem Solving</div>
+                        <div class="col-sm-6"><i class="fa-solid fa-arrow-trend-up"></i> Continuous Learner</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============ SKILLS SECTION ============ -->
+<section id="skills" class="skills-section">
+    <div class="container">
+        <div class="section-heading reveal-up">
+            <span class="section-tag">Skills</span>
+            <h2>My Technical Skills</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-6 col-md-4 col-lg-3 reveal-up">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                        <h5>C#</h5><p>Core language for backend logic and application development.</p>
+                        <div class="skill-progress"><div class="skill-progress-bar" data-percent="85"></div></div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                </div>
+<div class="col-6 col-md-4 col-lg-3 reveal-up">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-layer-group"></i></div>
+                        <h5>ASP.NET Core MVC</h5><p>Building structured, scalable web applications.</p>
+                        <div class="skill-progress"><div class="skill-progress-bar" data-percent="80"></div></div>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                </div>
+<div class="col-6 col-md-4 col-lg-3 reveal-up">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                        <h5>Entity Framework Core</h5><p>ORM for clean, model-driven data access.</p>
+                        <div class="skill-progress"><div class="skill-progress-bar" data-percent="75"></div></div>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                </div>
+<div class="col-6 col-md-4 col-lg-3 reveal-up">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
+                        <h5>SQL Server</h5><p>Designing relational schemas and writing queries.</p>
+                        <div class="skill-progress"><div class="skill-progress-bar" data-percent="78"></div></div>
+                        <span class="skill-percent">78%</span>
+                    </div>
+                </div>
+<div class="col-6 col-md-4 col-lg-3 reveal-up">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+                        <h5>HTML5</h5><p>Semantic, accessible page structure.</p>
+                        <div class="skill-progress"><div class="skill-progress-bar" data-percent="90"></div></div>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                </div>
+<div class="col-6 col-md-4 col-lg-3 reveal-up">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div>
+                        <h5>CSS3</h5><p>Responsive layouts, animations and styling.</p>
+                        <div class="skill-progress"><div class="skill-progress-bar" data-percent="88"></div></div>
+                        <span class="skill-percent">88%</span>
+                    </div>
+                </div>
+<div class="col-6 col-md-4 col-lg-3 reveal-up">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+                        <h5>JavaScript</h5><p>Interactive, dynamic client-side behaviour.</p>
+                        <div class="skill-progress"><div class="skill-progress-bar" data-percent="78"></div></div>
+                        <span class="skill-percent">78%</span>
+                    </div>
+                </div>
+<div class="col-6 col-md-4 col-lg-3 reveal-up">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-hand-pointer"></i></div>
+                        <h5>jQuery</h5><p>Simplifying DOM manipulation and AJAX calls.</p>
+                        <div class="skill-progress"><div class="skill-progress-bar" data-percent="80"></div></div>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                </div>
+<div class="col-6 col-md-4 col-lg-3 reveal-up">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-bootstrap"></i></div>
+                        <h5>Bootstrap</h5><p>Rapid, responsive, mobile-first UI design.</p>
+                        <div class="skill-progress"><div class="skill-progress-bar" data-percent="85"></div></div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                </div>
+<div class="col-6 col-md-4 col-lg-3 reveal-up">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-php"></i></div>
+                        <h5>PHP</h5><p>Server-side scripting fundamentals.</p>
+                        <div class="skill-progress"><div class="skill-progress-bar" data-percent="65"></div></div>
+                        <span class="skill-percent">65%</span>
+                    </div>
+                </div>
+<div class="col-6 col-md-4 col-lg-3 reveal-up">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                        <h5>MySQL</h5><p>Relational database design and management.</p>
+                        <div class="skill-progress"><div class="skill-progress-bar" data-percent="70"></div></div>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ============ PROJECTS SECTION ============ -->
+<section id="projects" class="projects-section">
+    <div class="container">
+        <div class="section-heading reveal-up">
+            <span class="section-tag">Projects</span>
+            <h2>Things I've Built</h2>
+        </div>
+        <div class="row g-4">
+
+            <div class="col-md-6 col-lg-3 reveal-up">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/project1.png" alt="E-Commerce Book Shopping Website" />
+                    </div>
+                    <div class="project-body">
+                        <h5>E-Commerce Book Shopping Website</h5>
+                        <p>Full-featured online bookstore with product management, search, cart and an admin panel for CRUD operations.</p>
+                        <div class="tech-tags">
+                            <span>ASP.NET Core MVC</span><span>C#</span><span>EF Core</span><span>SQL Server</span><span>Bootstrap</span><span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://localhost:7232/" class="btn btn-sm btn-outline-custom" title="Placeholder link — replace with your repo URL"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="https://localhost:7232/" class="btn btn-sm btn-primary-custom" title="Placeholder link — replace with your live demo URL"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 reveal-up delay-1">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/project2.jpg" alt="Product Management System" />
+                    </div>
+                    <div class="project-body">
+                        <h5>Product Management System</h5>
+                        <p>Admin system to add, edit, delete and search products with server-side DataTables, pagination and AJAX.</p>
+                        <div class="tech-tags">
+                            <span>ASP.NET Core MVC</span><span>EF Core</span><span>SQL Server</span><span>jQuery</span><span>DataTables</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm btn-outline-custom" title="Placeholder link — replace with your repo URL"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-sm btn-primary-custom" title="Placeholder link — replace with your live demo URL"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 reveal-up delay-2">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/project3.jpg" alt="Student Management System" />
+                    </div>
+                    <div class="project-body">
+                        <h5>Student Management System</h5>
+                        <p>Manages students, departments and courses with proper relational database design.</p>
+                        <div class="tech-tags">
+                            <span>ASP.NET Core MVC</span><span>C#</span><span>SQL Server</span><span>EF Core</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm btn-outline-custom" title="Placeholder link — replace with your repo URL"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-sm btn-primary-custom" title="Placeholder link — replace with your live demo URL"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 reveal-up delay-3">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/project4.jpg" alt="Country-State-City Registration System" />
+                    </div>
+                    <div class="project-body">
+                        <h5>Country-State-City Registration System</h5>
+                        <p>Registration form with dependent Country → State → City dropdowns backed by relational tables.</p>
+                        <div class="tech-tags">
+                            <span>ASP.NET Core MVC</span><span>EF Core</span><span>SQL Server</span><span>Bootstrap</span><span>jQuery</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm btn-outline-custom" title="Placeholder link — replace with your repo URL"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-sm btn-primary-custom" title="Placeholder link — replace with your live demo URL"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ============ EDUCATION SECTION ============ -->
+<section id="education" class="education-section">
+    <div class="container">
+        <div class="section-heading reveal-up">
+            <span class="section-tag">Education</span>
+            <h2>My Learning Journey</h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item reveal-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h5>Bachelor of Computer Applications (BCA)</h5>
+                    <p>
+                        A comprehensive undergraduate program covering the fundamentals of computer applications,
+                        programming languages, data structures, database management systems and software development
+                        principles. This degree built the analytical and technical foundation I now apply to
+                        real-world web application development.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item reveal-up delay-1">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h5>Full Stack Development</h5>
+                    <p>
+                        Self-driven and project-based learning in ASP.NET Core MVC, C#, SQL Server, HTML, CSS,
+                        JavaScript, jQuery and Bootstrap — focused on building complete, database-driven web
+                        applications following proper MVC architecture.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============ WHY HIRE ME SECTION ============ -->
+<section id="why-hire-me" class="why-hire-section">
+    <div class="container">
+        <div class="section-heading reveal-up">
+            <span class="section-tag">Why Hire Me</span>
+            <h2>What I Bring To The Table</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4 reveal-up">
+                    <div class="why-card"><div class="why-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+                        <h5>Problem Solver</h5><p>Able to analyze problems and develop practical solutions.</p>
+                    </div>
+                </div>
+<div class="col-md-6 col-lg-4 reveal-up">
+                    <div class="why-card"><div class="why-icon"><i class="fa-solid fa-layer-group"></i></div>
+                        <h5>Full Stack Knowledge</h5><p>Understanding of frontend, backend and database development.</p>
+                    </div>
+                </div>
+<div class="col-md-6 col-lg-4 reveal-up">
+                    <div class="why-card"><div class="why-icon"><i class="fa-solid fa-database"></i></div>
+                        <h5>Database Knowledge</h5><p>Experience with SQL Server, MySQL and Entity Framework Core.</p>
+                    </div>
+                </div>
+<div class="col-md-6 col-lg-4 reveal-up">
+                    <div class="why-card"><div class="why-icon"><i class="fa-solid fa-code"></i></div>
+                        <h5>Clean Coding</h5><p>Focus on readable and maintainable code.</p>
+                    </div>
+                </div>
+<div class="col-md-6 col-lg-4 reveal-up">
+                    <div class="why-card"><div class="why-icon"><i class="fa-solid fa-bolt"></i></div>
+                        <h5>Quick Learner</h5><p>Interested in learning new technologies.</p>
+                    </div>
+                </div>
+<div class="col-md-6 col-lg-4 reveal-up">
+                    <div class="why-card"><div class="why-icon"><i class="fa-solid fa-people-group"></i></div>
+                        <h5>Team Player</h5><p>Able to communicate and collaborate effectively.</p>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ============ CONTACT SECTION ============ -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <div class="section-heading reveal-up">
+            <span class="section-tag">Contact</span>
+            <h2>Let's Work Together</h2>
+        </div>
+
+        <div class="row gy-4">
+            <div class="col-lg-5 reveal-up">
+                <div class="contact-info-card">
+                    <div class="contact-info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h6>Email</h6>
+                            <p>your-email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fa-brands fa-github"></i>
+                        <div>
+                            <h6>GitHub</h6>
+                            <p>github.com/your-username</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <div>
+                            <h6>LinkedIn</h6>
+                            <p>linkedin.com/in/your-username</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7 reveal-up delay-1">
+                <div class="contact-form-card">
+
+                    <form id="contactForm" novalidate>
+
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Name</label>
+                                <input id="name" name="name" class="form-control" placeholder="Your full name" required />
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email</label>
+                                <input id="email" name="email" type="email" class="form-control" placeholder="you@example.com" required />
+                            </div>
+                            <div class="col-12">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input id="subject" name="subject" class="form-control" placeholder="What is this about?" required />
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-control" rows="5" placeholder="Write your message..." required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary-custom w-100 w-md-auto">
+                                    <i class="fa-solid fa-paper-plane me-2"></i>Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row gy-4 align-items-center">
+                <div class="col-md-4">
+                    <h5 class="footer-brand">Vansh<span>Rana</span></h5>
+                    <p class="mb-0">Fresher Full Stack Developer building clean, database-driven web applications.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="footer-socials">
+                        <a href="https://github.com/your-username" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="mailto:your-email@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <p class="mb-0">&copy; 2026 Vansh Rana. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button id="scrollTopBtn" title="Back to top" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Site JS -->
+    <script src="js/site.js" ></script>
+    <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered!'))
+        .catch(err => console.log('Service Worker registration failed: ', err));
+    });
+  }
+</script>
+</body>
+
+</html>
