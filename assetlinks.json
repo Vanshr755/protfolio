@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.vercel.protfoliovansh.twa",
+        "sha256_cert_fingerprints": ["C5:2C:11:EF:75:07:89:DD:EE:41:CF:CF:47:7E:56:AD:27:4A:C2:3A:2E:AA:57:2F:A7:DF:20:4F:5F:58:78:EF"]
+      }
+    }]
